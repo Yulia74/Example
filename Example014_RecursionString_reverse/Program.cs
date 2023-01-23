@@ -23,6 +23,7 @@ string NumbersRec(int a, int b)
 {
     if (a >= b)
         return NumbersRec(a, b + 1) + $"{b} ";
-    else
+    else 
         return String.Empty;
 }
+ Console.WriteLine(NumbersRec(1,10)); // 10 9 8 7 6 5 4 3 2 1 
